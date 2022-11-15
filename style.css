@@ -1,0 +1,337 @@
+
+/* @font-face {
+  font-family: 'raju';
+  src: url(assets/fonts/static/Inter-Bold.ttf) format(truetype),
+  src: url(assets/fonts/static/Inter-ExtraBold.ttf) format(truetype)
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+} */
+
+
+*{
+    font-family: "raju" sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+  }
+  /* navbar */
+  .container{
+    position: relative;
+    
+    width: 80%;
+    margin: 50px 0 100px 10%;
+    
+    
+    display: flex;
+    
+    /* background-color: aqua; */
+  }
+  .logo img{
+    position: relative;
+    
+  }
+  .navbar{
+    position: absolute;
+    display: flex;
+    right: 0px;
+    top: 15px;
+  }
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    
+   
+  }
+  .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 0 0 5px;
+    margin: 10px;
+  }
+  .navbar ul li a:hover{
+    color: red;
+  }
+
+  .mob{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+  }
+
+  @media (max-width:770px){
+    .container{
+      position: relative;
+      width: 100%;
+      margin: 0;
+      box-sizing: border-box;
+      margin: 30px 15px;
+    }
+    .mob{
+      position: absolute;
+      display: block;
+      z-index: 6;
+
+    }
+    .mob img{
+      margin-right: 15px;
+    }
+    .navbar{
+      position: fixed;
+      width: 70%;
+      height: 100%;
+      background: rgb(255, 255, 255);
+      top: 0;
+      z-index: 5;
+      transition: 2s;
+      margin: 60px 0 0 0px;
+      
+      
+    }
+    .navbar ul li{
+      display: block;
+      margin-left: 30px;
+      
+      
+
+    }
+    .navbar ul li a{
+      padding: 0;
+      line-height: 40px;
+    }
+
+  }
+
+
+  /* @media screen and (max-width: 770px){
+      .navbar{
+        width: 80%;
+        height: 100vh;
+        position: relative;
+        right: -80%;
+        top: 0;
+        background-color: white;
+        z-index: 1;
+
+      } */
+
+
+    /* .banner-text h1{
+      font-size: 44px;
+    }
+    .banner-btn a{
+      display: block;
+      margin: 20px auto;
+    }
+  }  */
+
+
+
+  
+
+  /* body part */
+  .container2{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: aquamarine; */
+    display: flex;
+  }
+  .imgtxt{
+    width: 70%;
+    box-sizing: border-box;
+    /* background-color: brown; */
+    margin-right: 10px;
+  }
+  
+  .imgtxt div img{
+    width: 100%;
+    height: auto;
+  }
+  .sidbar{
+    width: 30%;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .sidbar h2{
+    margin: 10px 0px 15px ;
+  }
+  .sidbar h2:hover{
+    color:orange;
+  }
+  
+  .future{
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    /* background-color: aqua; */
+
+  }
+  .future p{
+    font-weight: bold;
+    font-size: 80px;
+    padding: 5px 5px 5px 0;
+  }
+  .para{
+    float: right;
+    width: 50%;
+    display: inline-block;
+    /* background-color: blueviolet; */
+  }
+  .para p{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    position: relative;
+    
+  }
+  .para div a{
+    margin: 10px 10px 10px 0;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(209, 35, 35);
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+  }
+  .hero-btn{
+    margin-top: 50px;
+  }
+  .para div a:hover{
+    background-color: black;
+  }
+
+  .sidbar{
+    color: white;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 25px;
+  }
+  .sidbar h1{
+    color: gold;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .sidbar hr{
+    margin: 25px 0;
+  }
+
+
+  /* @media (max-width:770px){
+    .container2{
+      box-sizing: border-box;
+      margin-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+      position: relative;
+
+    }
+    
+    .imgtxt div img{
+      width: 100%;
+      height: auto;
+      display: block;
+      position: absolute;
+      padding-right: 15px;
+    }
+    .future p{
+      display: block; 
+    }
+    .para p{
+      width: 100%;
+      display: block;
+      color: black;
+      padding-left: 15px;
+    }
+    .sidbar{
+      width: 100%;
+      display: block;
+    }
+    
+    
+  } */
+
+  @media(max-width:770px){
+    .container2{
+      position: relative;
+      width: 90%;
+      margin-right: 50%;
+      display: block;
+      background-color: aqua;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* container3 */
+.container3{
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+
+}
+.pro1{
+  width: 33.33%;
+  /* background-color: bisque; */
+}
+.pro2{
+  width: 33.33%;
+}
+.pro3{
+  width: 33.33%;
+}
+.pro1 img, .pro2 img, .pro3 img{
+  width: 40%
+}
+.hed-tx{
+  box-sizing: border-box;
+  width: 57%;
+  float: right;
+  margin-left: 10px;
+  
+}
+.hed-tx h1{
+  box-sizing: border-box;
+  color: gray;
+  margin: 0px 0 0px 0;
+  font-size: 50px;
+}
+.hed-tx h2{
+  box-sizing: border-box;
+  margin: 15px 0 10px 0;
+  font-size: 25px;
+}
+.hed-tx h2:hover{
+  color: red;
+}
+.hed-tx p{
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+
+
+
+.attribution{
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
